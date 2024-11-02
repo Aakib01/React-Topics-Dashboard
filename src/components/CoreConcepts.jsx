@@ -9,8 +9,7 @@ export default function CoreConcepts()
           <ul>
             {
               CORE_CONCEPTS.map((conceptItem) => (<CoreConcept key={conceptItem.title} {...conceptItem} />))
-            }
-            
+            }            
           </ul> 
         </Section> 
     );
